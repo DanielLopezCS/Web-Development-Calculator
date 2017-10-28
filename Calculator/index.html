@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+ <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<header></header>
+<body id = "menu menu-Container"> 
+    <h1 class = "text-center well"> Javascript Web Calculator </h1>
+<div class = "mainCalculatorBlock">
+    <div class = "resultCalculatorBlock calcBorder">
+   <div class = "text-center outputText" id = "output"></div>
+   <div class = "text-center inputText" id = "input"><p>Input: </p></div>
+    </div>
+  
+  
+  <div class = "text-center"><input class = "buttonIt"  type = "button" value = "(" onclick = "addToEquation('(')"></input>
+<input class = "buttonIt"  type = "button" value = ")" onclick = "addToEquation(')')">
+  <input class = "buttonIt"  type = "button" value = "%" onclick = "addToEquation('%')"></input>
+  <input class = "buttonIt"  type = "button" value = "AC" onclick = "clearEquation()"></input>
+
+</div>
+
+  <div class = "text-center">
+
+  <input class = "buttonIt "   type = "button" value = "7" onclick = "addToEquation('7')"> </input>
+   <input class = "buttonIt "  type = "button" value = "8"
+          onclick = "addToEquation('8')"> </input>
+ <input class = "buttonIt"  type = "button" value = "9"
+        onclick = "addToEquation('9')"> 
+</input>
+<input class = "buttonIt"  type = "button" value = "÷" onclick = "addToEquation('/')"> </input>
+
+  </div>
+  <div class = "text-center">
+  <input class = "buttonIt"  type = "button" value = "4"
+         onclick = "addToEquation('4')"> 
+    </input>
+   <input class = "buttonIt"  type = "button" value = "5" onclick = "addToEquation('5')"> </input>
+ <input class = "buttonIt"  type = "button" value = "6" onclick = "addToEquation('6')"> </input>
+<input class = "buttonIt"  type = "button" value = "X" onclick = "addToEquation('*')">  </input>
+  </div>
+  <div class = "text-center">
+  <input  class = "buttonIt"  type = "button" value = "1" onclick = "addToEquation(1)"> </input>
+   <input class = "buttonIt"  type = "button" value = "2" onclick = "addToEquation(2)"> </input>
+ <input class = "buttonIt"  type = "button" value = "3" onclick = "addToEquation(3)"> </input>
+ <input class = "buttonIt"  type = "button" value = "-" onclick = "addToEquation('-')"> </input>
+  </div>
+  <div class = "text-center">
+ 
+  <input class = "buttonIt" type = "button" value = "0" onclick = "addToEquation('0')"> 
+    </input>
+<input class = "buttonIt"  type = "button" value = "." onclick = "addToEquation('.')"></input> 
+ <input class = "buttonIt"  type = "button" value = "=" onclick = "evaluateEquation()"></input> 
+ <input class = "buttonIt"  type = "button" value = "+" onclick = "addToEquation('+')"> </input>
+  </div>
+<div class = "text-center"> <input class = "deleteButton"  type = "button" value = "Del" onclick = "deleteKey()"> </input>
+</div>
+
+</div>
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

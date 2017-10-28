@@ -1,0 +1,70 @@
+.calcBorder{
+  border-style:solid;
+  border-color:white;
+  border-height: 8px;
+  border-width: 8px;
+}
+
+.buttonIt{
+  width: 50px;
+  height: 50px;
+  margin-top:5px;
+  margin-right:auto;
+  margin-left:auto;
+  color:black;
+  
+  border-style: solid;
+  border-color: black;
+  background:white;
+  border-width: 3px;
+  border-height 3px;
+}
+.deleteButton{
+  width: 210px;
+  height:50px;
+    margin-top:5px;
+  color:black;
+  border-style: dashed;
+  border-color: black;
+  background:white;
+  border-width: 3px;
+  border-height 3px;
+}
+.resultCalculatorBlock{
+  background-color:pink;
+  opacity:.8;
+  padding:40px;
+  width:300px;
+  height:45px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:30px;
+  margin-bottom:45px;
+}
+.mainCalculatorBlock{
+  background-color:orange;
+  opacity:.8;
+  padding:40px;
+  width:400px;
+  height:600px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:50px;
+  border-style:solid;
+  border-color:black;
+  border-height: 8px;
+  border-width: 8px;
+}
+.outputText{
+  font-size:2.5em; color:black; font-family:Anton;   display:block;
+}
+.inputText{
+  font-size:1.5em; color:white;
+}
+input:focus {outline:0; }
+#menu-container {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
